@@ -2,4 +2,4 @@
 
 This repo is under construction and will showcase first projects while learning React.
 
-## 1. Practice Project
+## 01. Starting Project
