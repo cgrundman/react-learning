@@ -7,3 +7,7 @@ This repo is under construction and will showcase first projects while learning 
 Project features a basic app that contains dynamic content.
 
 ![Starting Project](https://github.com/cgrundman/react-learning/blob/main/dynamic_content.PNG)
+
+## 02. Tic Tac Toe
+
+Project festures a Tic Tac Toe App.
