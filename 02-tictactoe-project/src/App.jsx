@@ -29,10 +29,21 @@ function App() {
     <main>
       <div id="game-container">
       <ol id="players" className="highlight-player">
-          <Player initialName="Player_1" symbol="X" isActive={activePlayer === 'X'}/>
-          <Player initialName="Player_2" symbol="O" isActive={activePlayer === 'O'}/>
+          <Player 
+            initialName="Player_1" 
+            ymbol="X" 
+            isActive={activePlayer === 'X'}
+          />
+          <Player 
+            initialName="Player_2" 
+            symbol="O" 
+            isActive={activePlayer === 'O'}
+          />
         </ol>
-        <GameBoard onSelectSquare={handleSelectSquare} activePlayerSymbol={activePlayer}/>
+        <GameBoard 
+          onSelectSquare={handleSelectSquare}
+          turns={gameTurns}
+        />
       </div>
       <Log />
     </main> 
