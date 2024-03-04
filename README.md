@@ -11,3 +11,5 @@ Project features a basic app that contains dynamic content.
 ## 02. Tic Tac Toe
 
 Project festures a Tic Tac Toe App.
+
+![Tic Tac Toe](https://github.com/cgrundman/react-learning/blob/main/tictactoe_1.png)
