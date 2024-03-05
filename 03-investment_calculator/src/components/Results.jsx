@@ -31,8 +31,8 @@ export default function Results({ investmentData }) {
                             <td>{formatter.format(totalInterest)}</td>
                             <td>{formatter.format(totalAmountInvested)}</td>
                         </tr>
-                    );
-                })};
+                    )
+                })}
             </tbody>
         </table>
     )

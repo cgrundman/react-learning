@@ -12,6 +12,8 @@ function App() {
     duration: 10
   });
 
+  const inputIsValid = investmentData.duration >= 1;
+
   function handleChange (inputIdentifier, newValue) {
     setInvestmentData(previousData => {
         return {
@@ -28,9 +30,10 @@ function App() {
         data={investmentData} 
         onchange={handleChange}
       />
-      <Results 
+      {!inputIsValid && <p>Please enter a valid duration.</p>}
+      {inputIsValid && <Results 
         investmentData={investmentData}
-      />
+      />}
     </>
   )
 }
