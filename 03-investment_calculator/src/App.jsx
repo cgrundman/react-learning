@@ -16,7 +16,7 @@ function App() {
     setInvestmentData(previousData => {
         return {
             ...previousData,
-            [inputIdentifier]: newValue
+            [inputIdentifier]: +newValue
         };
     });
   }
