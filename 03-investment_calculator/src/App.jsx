@@ -19,7 +19,9 @@ function App() {
         investmentData={investmentData} 
         setInvestmentData={setInvestmentData}
       />
-      <Results />
+      <Results 
+        investmentData={investmentData}
+      />
     </>
   )
 }
