@@ -1,57 +1,47 @@
-export default function UserInput({ investmentData, setInvestmentData }) {
-
-    function handleChange (inputIdentifier, newValue) {
-        setInvestmentData(previousData => {
-            return {
-                ...previousData,
-                [inputIdentifier]: newValue
-            };
-        });
-    }
-
+export default function UserInput({ data, onchange }) {
     return (
         <section id='user-input'>
             <div className="input-group">
                 <p>
-                    <label>Initial Investment ($) {investmentData.initialInvestment}</label>
+                    <label>Initial Investment ($) {data.initialInvestment}</label>
                     <input 
                         type="number" 
                         required 
-                        value={investmentData.initialInvestment}
+                        value={data.initialInvestment}
                         onChange={(event) => 
-                            handleChange('initialInvestment', event.target.value)} 
+                            onchange('initialInvestment', event.target.value)} 
                     />
                 </p>
                 <p>
-                    <label>Annual Investment ($) {investmentData.annualInvestment}</label>
+                    <label>Annual Investment ($) {data.annualInvestment}</label>
                     <input 
                         type="number" 
                         required 
-                        value={investmentData.annualInvestment}
+                        value={data.annualInvestment}
                         onChange={(event) => 
-                            handleChange('annualInvestment', event.target.value)} 
+                            onchange('annualInvestment', event.target.value)} 
                     />
                 </p>
             </div>
             <div className="input-group">
                 <p>
-                    <label>Expected Return (%) {investmentData.expectedReturn}</label>
+                    <label>Expected Return (%) {data.expectedReturn}</label>
                     <input 
                         type="number" 
                         required 
-                        value={investmentData.expectedReturn}
+                        value={data.expectedReturn}
                         onChange={(event) => 
-                            handleChange('expectedReturn', event.target.value)}
+                            onchange('expectedReturn', event.target.value)}
                     />
                 </p>
                 <p>
-                    <label>Duration (years) {investmentData.duration}</label>
+                    <label>Duration (years) {data.duration}</label>
                     <input 
                         type="number" 
                         required 
-                        value={investmentData.duration}
+                        value={data.duration}
                         onChange={(event) => 
-                            handleChange('duration', event.target.value)}
+                            onchange('duration', event.target.value)}
                     />
                 </p>
             </div>

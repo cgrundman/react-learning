@@ -12,12 +12,21 @@ function App() {
     duration: 10
   });
 
+  function handleChange (inputIdentifier, newValue) {
+    setInvestmentData(previousData => {
+        return {
+            ...previousData,
+            [inputIdentifier]: newValue
+        };
+    });
+  }
+
   return (
     <>
       <Header />
       <UserInput 
-        investmentData={investmentData} 
-        setInvestmentData={setInvestmentData}
+        data={investmentData} 
+        onchange={handleChange}
       />
       <Results 
         investmentData={investmentData}
