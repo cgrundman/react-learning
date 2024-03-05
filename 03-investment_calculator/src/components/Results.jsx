@@ -2,46 +2,38 @@ import { calculateInvestmentResults, formatter } from "../util/investment";
 
 export default function Results({ investmentData }) {
     const results = calculateInvestmentResults( investmentData )
-
-    // Display Calculated Investment table
-    console.log(results)
+    const initialInvestment = 
+        results[0].valueEndOfYear -
+        results[0].interest -
+        results[0].annualInvestment;
 
     return (
-        <section id='result'>
-            <div className="input-group">
-                <div>
-                    <thead>Year</thead>
-                    <tbody>{results[0].year}</tbody>
-                    <tbody>{results[1].year}</tbody>
-                    <tbody>{results[2].year}</tbody>
-                    <tbody>{results[3].year}</tbody>
-                    <tbody>{results[4].year}</tbody>
-                </div>
-                <div>
-                    <thead>Interest</thead>
-                    <tbody>{formatter.format(results[0].interest)}</tbody>
-                    <tbody>{formatter.format(results[1].interest)}</tbody>
-                    <tbody>{formatter.format(results[2].interest)}</tbody>
-                    <tbody>{formatter.format(results[3].interest)}</tbody>
-                    <tbody>{formatter.format(results[4].interest)}</tbody>
-                </div>
-                <div>
-                    <thead>Investment Sum</thead>
-                    <tbody>{formatter.format(results[0].valueEndOfYear)}</tbody>
-                    <tbody>{formatter.format(results[1].valueEndOfYear)}</tbody>
-                    <tbody>{formatter.format(results[2].valueEndOfYear)}</tbody>
-                    <tbody>{formatter.format(results[3].valueEndOfYear)}</tbody>
-                    <tbody>{formatter.format(results[4].valueEndOfYear)}</tbody>
-                </div>
-                <div>
-                    <thead>Annual Investment</thead>
-                    <tbody>{formatter.format(results[0].annualInvestment)}</tbody>
-                    <tbody>{formatter.format(results[1].annualInvestment)}</tbody>
-                    <tbody>{formatter.format(results[2].annualInvestment)}</tbody>
-                    <tbody>{formatter.format(results[3].annualInvestment)}</tbody>
-                    <tbody>{formatter.format(results[4].annualInvestment)}</tbody>
-                </div>
-            </div>
-        </section>
+        <table id='result'>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Investment Value</th>
+                    <th>Interest (Year)</th>
+                    <th>Total Interest</th>
+                    <th>Investment Capital</th>
+                </tr>
+            </thead>
+            <tbody>
+                {results.map(yearData => {
+                    const totalInterest = yearData.valueEndOfYear - yearData.annualInvestment * yearData.year - initialInvestment;
+                    const totalAmountInvested = yearData.valueEndOfYear - totalInterest;
+
+                    return (
+                        <tr key={yearData}>
+                            <td>{yearData.year}</td>
+                            <td>{formatter.format(yearData.valueEndOfYear)}</td>
+                            <td>{formatter.format(yearData.interest)}</td>
+                            <td>{formatter.format(totalInterest)}</td>
+                            <td>{formatter.format(totalAmountInvested)}</td>
+                        </tr>
+                    );
+                })};
+            </tbody>
+        </table>
     )
 }
