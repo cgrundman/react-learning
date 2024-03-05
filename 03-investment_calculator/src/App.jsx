@@ -5,20 +5,20 @@ import UserInput from "./components/UserInput.jsx"
 import Results from "./components/Results.jsx"
 
 function App() {
-  // const [ investmentData, setInvestmentData ] = useState(INVESTMENTDATA);
-
-  // function handleInvestmentData() {
-  //   setInvestmentData(investmentData => {
-  //     return{
-  //       ...investmentData
-  //     };
-  //   });
-  // } 
+  const [investmentData, setInvestmentData] = useState({
+    initialInvestment: 15000,
+    annualInvestment: 800,
+    expectedReturn: 5,
+    duration: 10
+  });
 
   return (
     <>
       <Header />
-      <UserInput />
+      <UserInput 
+        investmentData={investmentData} 
+        setInvestmentData={setInvestmentData}
+      />
       <Results />
     </>
   )

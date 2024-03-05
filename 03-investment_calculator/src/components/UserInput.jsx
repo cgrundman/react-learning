@@ -1,12 +1,4 @@
-import { useState } from "react"
-
-export default function UserInput({ initialData, onInput }) {
-    const [investmentData, setInvestmentData] = useState({
-        initialInvestment: 15000,
-        annualInvestment: 800,
-        expectedReturn: 5,
-        duration: 10
-    });
+export default function UserInput({ investmentData, setInvestmentData }) {
 
     function handleChange (inputIdentifier, newValue) {
         setInvestmentData(previousData => {
