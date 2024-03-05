@@ -1,16 +1,13 @@
-export default function Results({initialInvestment, 
-                                 annualInvestment, 
-                                 expectedReturn, 
-                                 duration}) {
+export default function Results() {
     const y = 12;
 
     return (
         <div id='result'>
             <div>
                 <thead>Initial Investment</thead>
-                <tbody>{initialInvestment}</tbody>
+                <tbody>{y}</tbody>
             </div>
-            <div>
+            {/* <div>
                 <thead>Initial Investment</thead>
                 <tbody>{annualInvestment}</tbody>
             </div>
@@ -21,7 +18,7 @@ export default function Results({initialInvestment,
             <div>
                 <thead>Initial Investment</thead>
                 <tbody>{duration}</tbody>
-            </div>
+            </div> */}
         </div>
     )
 }
