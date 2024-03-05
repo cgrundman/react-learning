@@ -6,9 +6,7 @@ function App() {
   return (
     <main>
       <Header />
-      <div>
-        <UserInput />
-      </div>
+      <UserInput />
       <Results />
     </main>
   )

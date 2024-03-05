@@ -1,7 +1,6 @@
 export default function UserInput() {
     return (
         <div id='user-input'>
-            
             <label>Initial Investment</label>
             <input></input>
             <label>Annual Investment</label>
@@ -10,7 +9,6 @@ export default function UserInput() {
             <input></input>
             <label>Duration</label>
             <input></input>
-            
         </div>
     )
 }
