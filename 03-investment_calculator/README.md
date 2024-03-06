@@ -8,6 +8,6 @@ This app performs very fast calcualtions on a simple investment scenario. The pa
 
 The calculator returns values for each given year: the end of year sum in the investment, the yearly interest, the total accrued interest, and the investment capital gained at each year.
 
-![Investment Calculator](https://github.com/cgrundman/react-learning/blob/main/investment_calculator.png)
+![Investment Calculator](https://github.com/cgrundman/react-learning/blob/main/images/investment_calculator.png)
 
 
