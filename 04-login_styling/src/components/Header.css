@@ -21,3 +21,22 @@ header img {
     color: #a39191;
     margin: 0;
   }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    header {
+      margin-bottom: 4rem;
+    }
+  
+    header h1 {
+      font-size: 2.25rem;
+    }
+  }
