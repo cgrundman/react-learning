@@ -19,3 +19,10 @@ Project festures a Tic Tac Toe App.
 Project features a basic investment calulator App. 
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/investment_calculator.png" alt="Investment Calculator" width="200"/>
+
+## 04. [Login Styling](https://github.com/cgrundman/react-learning/tree/main/04-login_styling)
+
+Project features custom and dynamic styling with React.
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/login_styling_1.png" alt="Login Styling" width="200"/>
+
