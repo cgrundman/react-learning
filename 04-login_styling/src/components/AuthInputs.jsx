@@ -37,11 +37,13 @@ export default function AuthInputs() {
         <Input
           invalid={emailNotValid}
           type="email"
+          label="Email"
           onChange={(event) => handleInputChange('email', event.target.value)}
         />
         <Input
           invalid={passwordNotValid}
           type="password"
+          label="Password"
           onChange={(event) =>
             handleInputChange('password', event.target.value)
           }
