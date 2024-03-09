@@ -16,7 +16,7 @@ function App() {
     setUserInput((prevUserInput) => {
       return {
         ...prevUserInput,
-        [inputIdentifier]: newValue,
+        [inputIdentifier]: +newValue, // add '+' to add input as number instead of string
       };
     });
   }
