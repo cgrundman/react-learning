@@ -26,3 +26,7 @@ Project features custom and dynamic styling with React.
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/login_styling_1.png" alt="Login Styling" width="200"/>
 
+## 05. [Debugging](https://github.com/cgrundman/react-learning/tree/main/05-debugging)
+
+Exercise in debugging React Apps (no image).
+
