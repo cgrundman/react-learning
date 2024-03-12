@@ -30,3 +30,9 @@ Project features custom and dynamic styling with React.
 
 Exercise in debugging React Apps (no image).
 
+## 06. [Countdown App](https://github.com/cgrundman/react-learning/tree/main/06-countdown_app)
+
+Project features a Countdown Game.
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/countdown_1.png" alt="Countdown App" width="200"/>
+
