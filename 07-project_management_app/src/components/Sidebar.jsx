@@ -20,7 +20,7 @@ export default function Sidebar({ onStartAddProject, selectProject, projects }) 
                     label="+ Add Project" 
                 />
             </div>
-            <ul>
+            <ul className="mt-8">
                 {projects.map(project => 
                     <li key={project.id}>
                         <button 

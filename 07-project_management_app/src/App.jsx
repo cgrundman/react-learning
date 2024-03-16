@@ -55,12 +55,20 @@ function App() {
     });
   };
 
+  function handleCancelAddProject() {
+    setProjectsState(() => {
+      return {
+        selectedProjectId: undefined,
+      };
+    });
+  };
+
   console.log(projectsState)
 
   let projectContent;
 
   if (projectsState.selectedProjectId === null) {
-    projectContent = <NewProjectModal onAdd={handleAddProject}/>
+    projectContent = <NewProjectModal onAdd={handleAddProject} onCancel={handleCancelAddProject} />
   } else if (projectsState.selectedProjectId) {
     projectContent = <ActiveProject />
   } else {
