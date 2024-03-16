@@ -46,11 +46,11 @@ function App() {
     });
   };
 
-  function handleActiveProject() {
+  function handleActiveProject(id) {
     setProjectsState(prevState => {
       return {
         ...prevState,
-        selectedProjectId: 0.41132088884960183,
+        selectedProjectId: id,
       };
     });
   };
@@ -64,15 +64,13 @@ function App() {
     });
   };
 
-  console.log(projectsState)
+  const selectedProject = projectsState.projects.find(project => project.id === projectsState.selectedProjectId);
 
-  let projectContent;
+  let projectContent = <ActiveProject project={selectedProject} />
 
   if (projectsState.selectedProjectId === null) {
     projectContent = <NewProjectModal onAdd={handleAddProject} onCancel={handleCancelAddProject} />
-  } else if (projectsState.selectedProjectId) {
-    projectContent = <ActiveProject />
-  } else {
+  } else if (projectsState.selectedProjectId === undefined) {
     projectContent = <Hompage onStartAddProject={handleStartAddProject} />
   }
 
@@ -80,7 +78,7 @@ function App() {
     <main className="h-screen my-8 flex gap-8">
       <Sidebar 
         onStartAddProject={handleStartAddProject}
-        selectProject={handleActiveProject} 
+        onSelectProject={handleActiveProject} 
         projects={projectsState.projects}
       />
       {projectContent}
