@@ -18,7 +18,8 @@ function App() {
       dueDate: "2024-03-19",
       id: 0.13513581438138343,
       title: "Testing 2"
-    }]
+    }],
+    tasks: []
   }); 
 
   function handleStartAddProject() {
@@ -76,9 +77,37 @@ function App() {
     });
   };
 
+  function handleAddTask(text) {
+    setProjectsState(prevState => {
+      const taskId = Math.random();
+      const newTask = {
+        text: text,
+        projectId: prevState.selectedProjectId,
+        id: taskId
+      };
+
+      return {
+        ...prevState,
+        tasks: [...prevState.tasks, newTask]
+      };
+    });
+  };
+
+  function handleDeleteTask() {
+
+  }
+
   const selectedProject = projectsState.projects.find(project => project.id === projectsState.selectedProjectId);
 
-  let projectContent = <ActiveProject project={selectedProject} onDelete={handleDeleteProject} />
+  let projectContent = (
+    <ActiveProject 
+      project={selectedProject} 
+      onDelete={handleDeleteProject}
+      onAddTask={handleAddTask}
+      onDeleteTask={handleDeleteTask}
+      tasks={projectsState.tasks}
+    />
+  )
 
   if (projectsState.selectedProjectId === null) {
     projectContent = <NewProjectModal onAdd={handleAddProject} onCancel={handleCancelAddProject} />
