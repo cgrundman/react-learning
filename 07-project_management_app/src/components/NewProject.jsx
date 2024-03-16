@@ -29,10 +29,6 @@ export default function NewProjectModal({ onAdd, onCancel }) {
         })
     }
 
-    function handleCancel() {
-        onCancel()
-    }
-
     return (
         <>
             <Modal ref={modal} buttonCaption="Close">
@@ -45,7 +41,7 @@ export default function NewProjectModal({ onAdd, onCancel }) {
                     <li>
                         <button 
                             className="text-stone-800 hover:text-stone-950"
-                            onClick={handleCancel}
+                            onClick={onCancel}
                         >
                             Cancel
                         </button>

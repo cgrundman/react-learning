@@ -56,9 +56,10 @@ function App() {
   };
 
   function handleCancelAddProject() {
-    setProjectsState(() => {
+    setProjectsState((prevState) => {
       return {
-        selectedProjectId: undefined,
+        ...prevState,
+        selectedProjectId: undefined
       };
     });
   };
