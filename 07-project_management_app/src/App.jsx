@@ -9,15 +9,15 @@ function App() {
   const [ projectsState, setProjectsState ] = useState({
     selectedProjectId: undefined,
     projects: [{
-      description: "This is a test",
-      dueDate: "2024-03-17",
+      description: "This is an example project. ",
+      dueDate: "2025-01-31",
       id: 0.41132088884960183,
-      title: "Testing"
+      title: "Example Project"
     },{
-      description: "This is another test",
-      dueDate: "2024-03-19",
+      description: "This is another example project.",
+      dueDate: "2026-03-19",
       id: 0.13513581438138343,
-      title: "Testing 2"
+      title: "Example Project 2"
     }],
     tasks: []
   }); 
@@ -93,8 +93,13 @@ function App() {
     });
   };
 
-  function handleDeleteTask() {
-
+  function handleDeleteTask(id) {
+    setProjectsState((prevState) => {
+      return {
+        ...prevState,
+        tasks: prevState.tasks.filter((task) => task.id !== id)
+      };
+    });
   }
 
   const selectedProject = projectsState.projects.find(project => project.id === projectsState.selectedProjectId);
