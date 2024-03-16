@@ -36,3 +36,9 @@ Project features a Countdown Game.
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/countdown_1.png" alt="Countdown App" width="200"/>
 
+## 07. [Project Management App](https://github.com/cgrundman/react-learning/tree/main/07-project_management_app)
+
+Project featuring a basic app for tracking project progress and goals.
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/project_management_app_1.png" alt="Countdown App" width="200"/>
+
