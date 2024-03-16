@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "./Button.jsx";
 
-export default function Sidebar({ onStartAddProject, projects }) {
+export default function Sidebar({ onStartAddProject, selectProject, projects }) {
     const [buttonActive, setButtonActive ] = useState(false);
 
     function handleClick() {
@@ -23,7 +23,10 @@ export default function Sidebar({ onStartAddProject, projects }) {
             <ul>
                 {projects.map(project => 
                     <li key={project.id}>
-                        <button className="w-full text-left px-2 py-1 rounded-sm my-1 text-stone-400 hover:text-stone-200 hover:bg-stone-800">
+                        <button 
+                            className="w-full text-left px-2 py-1 rounded-sm my-1 text-stone-400 hover:text-stone-200 hover:bg-stone-800"
+                            onClick={selectProject}
+                        >
                             {project.title}
                         </button>
                     </li>
