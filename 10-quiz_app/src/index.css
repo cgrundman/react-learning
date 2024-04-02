@@ -97,6 +97,11 @@ header h1 {
   text-transform: uppercase;
 }
 
+#question-time {
+  width:50%;
+  height: 10px;
+}
+
 #question progress {
   width: 50%;
   height: 0.5rem;
