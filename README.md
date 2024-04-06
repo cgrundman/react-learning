@@ -50,3 +50,6 @@ Project featuring a basic app for tracking project progress and goals.
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/placepicker_1.png" alt="Countdown App" width="200"/>
 
+## 10. [Quiz App](https://github.com/cgrundman/react-learning/tree/main/10-quiz_app)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/quiz_1.png" />
