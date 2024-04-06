@@ -1,6 +1,6 @@
 # Project Managment App
 
-This app is designed to be a page to track projects and tasks. Many components are needed to do this. To begin, the home page is seen below:
+This is another applicaiton with the `useState` hook. This app is designed to be a page to track projects and tasks. Many components are needed to do this. To begin, the home page is seen below:
 
 ![PM App Main Page](https://github.com/cgrundman/react-learning/blob/main/images/project_management_app_1.png)
 
