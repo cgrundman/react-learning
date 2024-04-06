@@ -1,6 +1,6 @@
 # Tic Tac Toe Project
 
-This is an example project, that contains a Tic Tac Toe game. This project is meant to searve as a refresher to JavaScript. It comvers topics including: operators, functions, objects and classes, arrays, and destructuring.
+This is an example project that introduces state handlig through the `useState` hook, containing a Tic Tac Toe game. This project is meant to searve as a refresher to JavaScript. It comvers topics including: operators, functions, objects and classes, arrays, and destructuring.
 
 ## Game
 
