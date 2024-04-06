@@ -1,6 +1,6 @@
 # Investment Calculator Project
 
-This is an example project, that contains an Investment Calculator App.
+This is an example project, that contains an Investment Calculator App. The main goal is to introduce react components.
 
 ## Simple Investment Calculations
 
