@@ -53,3 +53,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 10. [Quiz App](https://github.com/cgrundman/react-learning/tree/main/10-quiz_app)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/quiz_1.png" alt="Quiz App" width="200"/>
+
+## 11. [Counter App](https://github.com/cgrundman/react-learning/tree/main/11-counter_app)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/counter_app_1.png" alt="Quiz App" width="200"/>
