@@ -4,7 +4,7 @@ import classes from './User.module.css';
 
 class User extends Component {
   componentWillUnmount() {
-    console.log("User will unmount")
+    console.log("User will unmount");
   }
 
   render() {
