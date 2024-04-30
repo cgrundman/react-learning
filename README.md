@@ -65,3 +65,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 13. [Database](https://github.com/cgrundman/react-learning/tree/main/13-placepicker_database)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/database_3.png" alt="Quiz App" width="200"/>
+
+## 13. [Custom Hooks](https://github.com/cgrundman/react-learning/tree/main/14-placepicker_custom_hooks)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/database_1.png" alt="Quiz App" width="200"/>
