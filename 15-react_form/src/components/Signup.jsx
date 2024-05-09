@@ -21,17 +21,20 @@ export default function Signup() {
           <input 
             id="email" 
             type="email" 
-            name="email" 
-        />
+            name="email"
+            required 
+          />
         </div>
   
         <div className="control-row">
           <div className="control">
             <label htmlFor="password">Password</label>
             <input 
-                id="password" 
-                type="password" 
-                name="password" 
+              id="password" 
+              type="password" 
+              name="password"
+              required
+              minlength={6} 
             />
           </div>
   
@@ -51,9 +54,9 @@ export default function Signup() {
           <div className="control">
             <label htmlFor="first-name">First Name</label>
             <input 
-                type="text" 
-                id="first-name" 
-                name="first-name" 
+              type="text" 
+              id="first-name" 
+              name="first-name" 
             />
           </div>
   
