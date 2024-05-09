@@ -56,7 +56,8 @@ export default function Signup() {
             <input 
               type="text" 
               id="first-name" 
-              name="first-name" 
+              name="first-name"
+              required 
             />
           </div>
   
@@ -66,6 +67,7 @@ export default function Signup() {
                 type="text" 
                 id="last-name" 
                 name="last-name" 
+                required
             />
           </div>
         </div>
