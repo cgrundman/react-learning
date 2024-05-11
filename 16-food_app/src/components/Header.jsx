@@ -1,3 +1,4 @@
+import Button from './UI/Button.jsx'
 import logoImg from '../assets/logo.jpg'
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
                 <h1>React Food App</h1>
             </div>
             <nav>
-                <button>Cart (0)</button>
+                <Button textOnly>Cart (0)</Button>
             </nav>
         </header>
     )
