@@ -73,3 +73,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 15. [React Forms](https://github.com/cgrundman/react-learning/tree/main/15-react_form)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/forms_1.png" alt="React Forms" width="200"/>
+
+## 16. [Food App](https://github.com/cgrundman/react-learning/tree/main/16-food_app)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/food_1.png" alt="React Forms" width="200"/>
