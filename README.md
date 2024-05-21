@@ -76,4 +76,8 @@ Project featuring a basic app for tracking project progress and goals.
 
 ## 16. [Food App](https://github.com/cgrundman/react-learning/tree/main/16-food_app)
 
-<img src="https://github.com/cgrundman/react-learning/blob/main/images/food_1.png" alt="React Forms" width="200"/>
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/food_1.png" alt="Food Aoo" width="200"/>
+
+## 17. [Redux](https://github.com/cgrundman/react-learning/tree/main/17-redux)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/redux_1.png" alt="Redux Intro" width="200"/>
