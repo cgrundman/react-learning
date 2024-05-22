@@ -81,3 +81,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 17. [Redux](https://github.com/cgrundman/react-learning/tree/main/17-redux)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/redux_1.png" alt="Redux Intro" width="200"/>
+
+## 18. [Advanced Redux](https://github.com/cgrundman/react-learning/tree/main/18-advanced_redux)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/redux_adv_2.png" alt="Advanced Redux" width="200"/>
