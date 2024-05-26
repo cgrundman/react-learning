@@ -6,9 +6,7 @@ function EventLayout() {
     return (
         <>
             <EventNavigation />
-            <main>
-                <Outlet />
-            </main>
+            <Outlet />
         </>
     )
 }
