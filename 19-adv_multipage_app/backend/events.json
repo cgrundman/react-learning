@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"gfsdghrs","image":"https://www.spyne.ai/blogs/wp-content/uploads/2019/10/Untitled-3-1.jpg","date":"2024-07-01","description":"Rock on wayne","id":"225071fc-d19c-4fbb-8836-f0b4acd6a9b4"},{"title":"S","image":"https://images.squarespace-cdn.com/content/v1/56513229e4b02fdfadb380a8/1534526057969-M55QIATLYGPM2A859B2A/American+Heart+circle+of+RED.+waltz.kenton.jpg","date":"2024-07-27","description":"fdasfdsa","id":"86ab6ccb-6bfe-44cf-8249-4413e77a5768"},{"title":"A New Event","image":"https://images.squarespace-cdn.com/content/v1/56513229e4b02fdfadb380a8/1534526057969-M55QIATLYGPM2A859B2A/American+Heart+circle+of+RED.+waltz.kenton.jpg","date":"2024-07-15","description":"An awesome new event","id":"cbfbe997-568b-4ba0-a857-768cdbd02e41"},{"title":"A new event","image":"https://images.squarespace-cdn.com/content/v1/56513229e4b02fdfadb380a8/1534526057969-M55QIATLYGPM2A859B2A/American+Heart+circle+of+RED.+waltz.kenton.jpg","date":"2024-07-16","description":"A new awesome event!","id":"e7edfda1-f5e9-4010-bd6d-510bedf843bb"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
