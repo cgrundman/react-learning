@@ -85,3 +85,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 18. [Advanced Redux](https://github.com/cgrundman/react-learning/tree/main/18-advanced_redux)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/redux_adv_2.png" alt="Advanced Redux" width="200"/>
+
+## 19. [React Routing](https://github.com/cgrundman/react-learning/tree/main/19b-adv_multipage_app)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/routing_5.png" alt="Routing" width="200"/>
