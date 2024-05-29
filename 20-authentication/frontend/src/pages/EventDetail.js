@@ -7,8 +7,9 @@ import {
   Await,
 } from 'react-router-dom';
 
-import EventItem from '../components/EventItem';
-import EventsList from '../components/EventsList';
+import EventItem from '../components/EventItem.js';
+import EventsList from '../components/EventsList.js';
+import { getAuthToken } from '../util/auth.js';
 
 function EventDetailPage() {
   const { event, events } = useRouteLoaderData('event-detail');
@@ -78,8 +79,14 @@ export async function loader({ request, params }) {
 
 export async function action({ params, request }) {
   const eventId = params.eventId;
+
+  const token = getAuthToken();
   const response = await fetch('http://localhost:8080/events/' + eventId, {
     method: request.method,
+    headers: {
+      'Content-Type': "application/json",
+      'Authorization': 'Bearer ' + token,
+    }
   });
 
   if (!response.ok) {
