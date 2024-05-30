@@ -1,0 +1,5 @@
+*.json
+*.bin
+
+node_modules/
+@jest
