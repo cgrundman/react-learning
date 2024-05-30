@@ -89,3 +89,7 @@ Project featuring a basic app for tracking project progress and goals.
 ## 19. [React Routing](https://github.com/cgrundman/react-learning/tree/main/19b-adv_multipage_app)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/routing_5.png" alt="Routing" width="200"/>
+
+## 20. [Authentication](https://github.com/cgrundman/react-learning/tree/main/20-authentication)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/auth_2.png" alt="Authentication" width="200"/>
