@@ -85,3 +85,7 @@ Exercise in debugging React Apps (no image).
 ## 21. [Deployment](https://github.com/cgrundman/react-learning/tree/main/21-deploy)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/deploy_1.png" alt="Deployment" width="400"/>
+
+## 22. [Query](https://github.com/cgrundman/react-learning/tree/main/22-query)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/query_1.png" alt="Query" width="400"/>
