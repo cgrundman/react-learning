@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <header className={classes.header}>
-        <div className={classes.slideshow}><ImageSlideshow /></div>
+        <div className={classes.slideshow}>
+          <ImageSlideshow />
+        </div>
         <div>
           <div className={classes.hero}>
             <h1>NextLevel Food for NextLevel Foodies</h1>
@@ -32,7 +34,7 @@ export default function Home() {
             with other food lovers.
           </p>
         </section>
-
+        
         <section className={classes.section}>
           <h2>Why NextLevel Food?</h2>
           <p>
