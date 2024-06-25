@@ -27,8 +27,9 @@ export function getStaticProps() {
     return {
         props: {
             meetups: DUMMY_MEETUPS
-        }
-    }
+        },
+        revalidate: 60
+    };
 }
 
 export default HomePage;
