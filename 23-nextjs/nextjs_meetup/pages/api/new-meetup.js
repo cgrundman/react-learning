@@ -8,10 +8,11 @@ async function handler(req, res) {
     if (req.method === 'POST') {
         const data = req.body;
 
-        [username, password] = Secrets()
+        const credentials = Secrets();
+        console.log(credentials)
 
-        const client = await MongoClient.connect(`mongodb+srv://${username}:${password}@cluster0.jfjnc51.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
-        const db = client.db();
+        const client = await MongoClient.connect(`mongodb+srv://${credentials.username}:${credentials.password}@cluster0.jfjnc51.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
+        const db = client.db("meetups");
 
         const meetupsCollection = db.collection('meetups');
 
