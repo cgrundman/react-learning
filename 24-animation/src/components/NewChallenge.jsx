@@ -60,14 +60,14 @@ export default function NewChallenge({ onDone }) {
         <motion.ul 
           id="new-challenge-images" 
           variants={{
-            visible: { transition: { staggerChildren: 0.5 } }
+            visible: { transition: { staggerChildren: 0.05 } }
           }}
         >
           {images.map((image) => (
             <motion.li
               variants={{ 
                 hidden: { opacity: 0, scale: 0.5 },
-                visible: { opacity: 1, scale: 1 }
+                visible: { opacity: 1, scale: [0.8, 1.3, 1] }
               }}
               exit="visible"
               transition={{ type: 'spring' }}
