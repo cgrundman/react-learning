@@ -90,6 +90,10 @@ Exercise in debugging React Apps (no image).
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/query_1.png" alt="Query" width="400"/>
 
+## 23. [Next.js](https://github.com/cgrundman/react-learning/tree/main/23-nextjs)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/nextjs_2.png" alt="nextjs" width="400"/>
+
 ## 24. [Animation](https://github.com/cgrundman/react-learning/tree/main/24-animation)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/animations_2.png" alt="Animation" width="400"/>
