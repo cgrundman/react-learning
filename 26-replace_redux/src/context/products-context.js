@@ -3,7 +3,7 @@ import { toggleFav } from '../store/actions/products';
 
 export const ProductsContext = React.createContext({
     products: [],
-    toggleFav: () => {}
+    toggleFav: (id) => {}
 })
 
 export default props => {
