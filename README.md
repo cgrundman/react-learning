@@ -90,6 +90,10 @@ Exercise in debugging React Apps (no image).
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/query_1.png" alt="Query" width="400"/>
 
+## 24. [Animation](https://github.com/cgrundman/react-learning/tree/main/24-animation)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/animations_2.png" alt="Animation" width="400"/>
+
 ## 25. [Patterns and Best Practices](https://github.com/cgrundman/react-learning/tree/main/25-patterns_and_best_practices)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/patterns_1.png" alt="Patterns and Best Practices" width="400"/>
