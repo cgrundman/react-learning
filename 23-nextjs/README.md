@@ -1,19 +1,19 @@
-# Animations
+# next.js
 
-This project showcased animations with React. Obviosuly this is hord to display. Check the code for different options for animating a react project. This project is a challenge tracker.
+This is a series of projects meant to demonstrate the use of next.js. Next.js is a server-side javascript framework that is used here to show how to handle the queries and rendering discussed in other sections.
 
-The home page below is animated through being linked to the y-direction scroll. There is a hero image and the background image, that change differently (opacity and size) based on scoll amount.
+First is a basic project to demonstrate nextjs. This is a simple application to introduce how to use next.js.
 
-![Animations 1](https://github.com/cgrundman/react-learning/blob/main/images/animations_1.png)
+![nextjs 1](https://github.com/cgrundman/react-learning/blob/main/images/nextjs_1.png)
 
-The challenge page is animated in small ways. The list is animated to appear and drop down with `AnimatePresence`. The view details trainagle is animated to rotate and the details to drop dowm using a `motion.div` to give motion to an html element.
+The second project is a food recipe application. There are many different topics covered in this section. Below are the mani pages from the application.
 
-![Animations 2](https://github.com/cgrundman/react-learning/blob/main/images/animations_2.png)
+![nextjs 2](https://github.com/cgrundman/react-learning/blob/main/images/nextjs_2.png)
 
-Switchin to other sectinos of challenges, the bar is animated to transition underneath the active section with a specialized function `Tab()` and withus eof `motion`.
+![nextjs 3](https://github.com/cgrundman/react-learning/blob/main/images/nextjs_3.png)
 
-![Animations 3](https://github.com/cgrundman/react-learning/blob/main/images/animations_3.png)
+![nextjs 4](https://github.com/cgrundman/react-learning/blob/main/images/nextjs_4.png)
 
-Lastly, the modal for creating a new challenge is animated to appear with a slide up and a bounce. This is done with `motion.dialogue`
+Finally, the last project are for multipage appliatinos and managing caching in nextjs to provide a better user experience. The first is the nextjs Pages Router project, that is a basic example. A more detailed example of this is seen below in the nextjs Meetup application.
 
-![Animations 4](https://github.com/cgrundman/react-learning/blob/main/images/animations_4.png)
+![nextjs 5](https://github.com/cgrundman/react-learning/blob/main/images/nextjs_5.png)
