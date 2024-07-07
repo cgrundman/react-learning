@@ -4,8 +4,8 @@ This project covers an example of replaceing React Redux with custom hooks. The 
 
 The home page allows the user to select from a list of items to favorite.
 
-![Replace Redux 1](https://github.com/cgrundman/react-learning/blob/main/images/patterns_1.png)
+![Replace Redux 1](https://github.com/cgrundman/react-learning/blob/main/images/replace_redux_1.png)
 
 The favorites page renders all those items that the user favorited.
 
-![Replace Redux 2](https://github.com/cgrundman/react-learning/blob/main/images/patterns_2.png)
+![Replace Redux 2](https://github.com/cgrundman/react-learning/blob/main/images/replace_redux_2.png)
