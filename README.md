@@ -89,3 +89,7 @@ Exercise in debugging React Apps (no image).
 ## 22. [Query](https://github.com/cgrundman/react-learning/tree/main/22-query)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/query_1.png" alt="Query" width="400"/>
+
+## 25. [Patterns and Best Practices](https://github.com/cgrundman/react-learning/tree/main/25-patterns_and_best_practices)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/patterns_1.png" alt="Patterns and Best Practices" width="400"/>
