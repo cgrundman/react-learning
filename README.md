@@ -105,3 +105,7 @@ Exercise in debugging React Apps (no image).
 ## 26. [Replacing Redux](https://github.com/cgrundman/react-learning/tree/main/26-replace_redux)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/replace_redux_2.png" alt="Replacing Redux" width="400"/>
+
+## 27. [Testing](https://github.com/cgrundman/react-learning/tree/main/27-testing)
+
+Exercise in testing React Apps (no image).
