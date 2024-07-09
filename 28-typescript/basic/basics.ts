@@ -15,3 +15,28 @@ userName = 'Christian';
 let isStudent: boolean;
 
 isStudent = true;
+
+// More complex types
+
+let hobbies: string[];
+
+hobbies = ['Music', 'Arson', 'Money Laundering']
+
+let person: {
+    name: string;
+    age: number;
+};
+
+person = {
+    name: 'Christian',
+    age: 32
+}
+
+// person = {
+//     isEmployee: true
+// }
+
+let people: {
+    name: string;
+    age: number;
+}[];
