@@ -2,6 +2,8 @@
 
 This repo is under construction and will showcase first projects while learning React.
 
+TODO: Add installation instructions.
+
 ## 01. [Starting Project](https://github.com/cgrundman/react-learning/tree/main/01-starting-project)
 
 <img src="https://github.com/cgrundman/react-learning/blob/main/images/starting_project_1.png" alt="Starting Project" width="400"/>
