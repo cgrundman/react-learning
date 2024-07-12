@@ -111,3 +111,7 @@ Exercise in debugging React Apps (no image).
 ## 27. [Testing](https://github.com/cgrundman/react-learning/tree/main/27-testing)
 
 Exercise in testing React Apps (no image).
+
+## 28. [TypeScript](https://github.com/cgrundman/react-learning/tree/main/28-typescript)
+
+<img src="https://github.com/cgrundman/react-learning/blob/main/images/typescript_1.png" alt="TypeScript" width="400"/>
